@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-	<title>Isnstall Guide - Electrum Cardano</title>
+	<title>Electrum ADA Installation Guide for Your Cardano Wallet</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=1100px, initial-scale=1.0">
 	<meta name="author" content="electrum-ada.org">
-	<link rel="stylesheet" href="css/style.min.css?_v=20241017115028">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241021143048">
 	<link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
 	<link rel="icon" type="image/webp" sizes="16x16" href="img/favicon/16x16.webp">
 	<link rel="icon" type="image/webp" sizes="32x32" href="img/favicon/32x32.webp">
@@ -17,20 +17,20 @@
 	<link rel="icon" type="image/webp" sizes="400x400" href="img/favicon/400x400.webp">
 	<link rel="canonical" href="https://electrum-ada.org/install-guide.html">
 	<meta name="robots" content="follow, index, max-snippet:-1, max-image-preview:large">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="description" content="Follow this easy-to-use installation guide to set up your Electrum ADA wallet. Ensure a smooth and secure setup process to start managing your Cardano cryptocurrency with ease.">
+	<meta name="keywords" content="Electrum ADA installation guide, Cardano wallet setup, install Electrum ADA, step-by-step Cardano guide, how to install Electrum ADA">
 	<meta property="og:site_name" content="electrum-ada.org">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://electrum-ada.org/install-guide.html">
-	<meta property="og:title" content="Isnstall Guide - Electrum Cardano">
-	<meta property="og:description" content="">
+	<meta property="og:title" content="Electrum ADA Installation Guide for Your Cardano Wallet">
+	<meta property="og:description" content="Follow this easy-to-use installation guide to set up your Electrum ADA wallet. Ensure a smooth and secure setup process to start managing your Cardano cryptocurrency with ease.">
 	<meta property="og:image" content="img/favicon/400x400.webp">
 	<meta property="og:image:width" content="400">
 	<meta property="og:image:height" content="400">
 	<meta property="og:image:alt" content="Electrum Cardano logo">
 	<meta property="og:image:type" content="image/webp">
-	<meta property="twitter:title" content="Isnstall Guide - Electrum Cardano">
-	<meta property="twitter:description" content="">
+	<meta property="twitter:title" content="Electrum ADA Installation Guide for Your Cardano Wallet">
+	<meta property="twitter:description" content="Follow this easy-to-use installation guide to set up your Electrum ADA wallet. Ensure a smooth and secure setup process to start managing your Cardano cryptocurrency with ease.">
 	<meta property="twitter:image" content="img/favicon/400x400.webp">
 	<meta property="twitter:card" content="summary">
 </head>
@@ -76,42 +76,38 @@
 						<h1 tabindex="-1" class="heading-element" dir="auto">HOWTO</h1>
 					</div>
 					<div class="markdown-heading" dir="auto">
-						<h2 tabindex="-1" class="heading-element" dir="auto">Prerequisites</h2><a id="user-content-prerequisites" class="anchor" aria-label="Permalink: Prerequisites" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h2 tabindex="-1" class="heading-element" dir="auto">Prerequisites</h2>
 					</div>
 					<p dir="auto"><strong>ElectrumX</strong> should run on any flavour of unix. I have run it
 						successfully on MacOS and DragonFlyBSD. It won't run out-of-the-box
 						on Windows, but the changes required to make it do so should be
 						small - pull requests are welcome.</p>
-					<markdown-accessiblity-table data-catalyst="">
-						<table>
-							<thead valign="bottom">
-								<tr>
-									<th>Package</th>
-									<th>Notes</th>
-								</tr>
-							</thead>
-							<tbody valign="top">
-								<tr>
-									<td>Python3</td>
-									<td>ElectrumX uses asyncio. Python version &gt;= 3.8 is
-										<strong>required</strong>.
-									</td>
-								</tr>
-								<tr>
-									<td><a href="https://pypi.python.org/pypi/aiohttp" rel="nofollow">aiohttp</a></td>
-									<td>Python library for asynchronous HTTP. Version &gt;=
-										2.0 required.</td>
-								</tr>
-								<tr>
-									<td>DB Engine</td>
-									<td>A database engine package is required; two are
-										supported (see <a href="#database-engine">Database Engine</a> below).</td>
-								</tr>
-							</tbody>
-						</table>
-					</markdown-accessiblity-table>
+					<table>
+						<thead>
+							<tr>
+								<th>Package</th>
+								<th>Notes</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Python3</td>
+								<td>ElectrumX uses asyncio. Python version &gt;= 3.8 is
+									<strong>required</strong>.
+								</td>
+							</tr>
+							<tr>
+								<td><a href="https://pypi.python.org/pypi/aiohttp" rel="nofollow">aiohttp</a></td>
+								<td>Python library for asynchronous HTTP. Version &gt;=
+									2.0 required.</td>
+							</tr>
+							<tr>
+								<td>DB Engine</td>
+								<td>A database engine package is required; two are
+									supported (see <a href="#database-engine">Database Engine</a> below).</td>
+							</tr>
+						</tbody>
+					</table>
 					<p dir="auto">Some coins need an additional package, typically for their block hash
 						functions. For example, <a href="https://pypi.python.org/pypi/dash_hash" rel="nofollow">dash_hash</a> is required for DASH. Scrypt coins
 						require a Python interpreter compiled and/or linked with OpenSSL 1.1.0
@@ -141,9 +137,7 @@
 						brief periods, and the block chain is only getting longer, so I would
 						recommend having at least 70-80GB of free space before starting.</p>
 					<div class="markdown-heading" dir="auto">
-						<h2 tabindex="-1" class="heading-element" dir="auto">Database Engine</h2><a id="user-content-database-engine" class="anchor" aria-label="Permalink: Database Engine" href="#database-engine"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h2 tabindex="-1" class="heading-element" dir="auto">Database Engine</h2>
 					</div>
 					<p dir="auto">You can choose from LevelDB and RocksDB to store transaction
 						information on disk. The time taken and DB size is not significantly
@@ -164,9 +158,7 @@
 						</li>
 					</ul>
 					<div class="markdown-heading" dir="auto">
-						<h2 tabindex="-1" class="heading-element" dir="auto">Running</h2><a id="user-content-running" class="anchor" aria-label="Permalink: Running" href="#running"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h2 tabindex="-1" class="heading-element" dir="auto">Running</h2>
 					</div>
 					<p dir="auto">Install the prerequisites above.</p>
 					<p dir="auto">Check out the code from Github:</p>
@@ -191,9 +183,7 @@ cd electrumx</pre>
 					<pre>mkdir /path/to/db_directory
 chown electrumx /path/to/db_directory</pre>
 					<div class="markdown-heading" dir="auto">
-						<h3 tabindex="-1" class="heading-element" dir="auto">Process limits</h3><a id="user-content-process-limits" class="anchor" aria-label="Permalink: Process limits" href="#process-limits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h3 tabindex="-1" class="heading-element" dir="auto">Process limits</h3>
 					</div>
 					<p dir="auto">You must ensure the ElectrumX process has a large open file limit.
 						During sync it should not need more than about 1,024 open files. When
@@ -207,9 +197,7 @@ chown electrumx /path/to/db_directory</pre>
 						<a href="#id6"><span id="user-content-id7">:file:`.service`</span></a> file (see <a href="https://github.com/spesmilo/electrumx/blob/master/contrib/systemd/electrumx.service">contrib/systemd/electrumx.service</a>).
 					</p>
 					<div class="markdown-heading" dir="auto">
-						<h3 tabindex="-1" class="heading-element" dir="auto">Using daemontools</h3><a id="user-content-using-daemontools" class="anchor" aria-label="Permalink: Using daemontools" href="#using-daemontools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h3 tabindex="-1" class="heading-element" dir="auto">Using daemontools</h3>
 					</div>
 					<p dir="auto">Next create a daemontools service directory; this only holds symlinks
 						(see daemontools documentation). The <a href="#id8"><span id="user-content-id9">:command:`svscan`</span></a> program will
@@ -255,9 +243,7 @@ ln -s ~/scripts/electrumx electrumx</pre>
 						You can see its logs with:</p>
 					<pre>tail -F /path/to/log/dir/current | tai64nlocal</pre>
 					<div class="markdown-heading" dir="auto">
-						<h3 tabindex="-1" class="heading-element" dir="auto">Using systemd</h3><a id="user-content-using-systemd" class="anchor" aria-label="Permalink: Using systemd" href="#using-systemd"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h3 tabindex="-1" class="heading-element" dir="auto">Using systemd</h3>
 					</div>
 					<p dir="auto">This repository contains a sample systemd unit file that you can use
 						to setup ElectrumX with systemd. Simply copy it to
@@ -287,9 +273,7 @@ ln -s ~/scripts/electrumx electrumx</pre>
 						</p>
 					</div>
 					<div class="markdown-heading" dir="auto">
-						<h3 tabindex="-1" class="heading-element" dir="auto">Installing on Raspberry Pi 3</h3><a id="user-content-installing-on-raspberry-pi-3" class="anchor" aria-label="Permalink: Installing on Raspberry Pi 3" href="#installing-on-raspberry-pi-3"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h3 tabindex="-1" class="heading-element" dir="auto">Installing on Raspberry Pi 3</h3>
 					</div>
 					<p dir="auto">To install on the Raspberry Pi 3 you will need to update to the
 						<code>stretch</code> distribution. See the full procedure in
@@ -298,9 +282,7 @@ ln -s ~/scripts/electrumx electrumx</pre>
 					<p dir="auto">See also <a href="https://github.com/spesmilo/electrumx/blob/master/contrib/raspberrypi3/run_electrumx.sh">contrib/raspberrypi3/run_electrumx.sh</a> for an easy way to
 						configure and launch electrumx.</p>
 					<div class="markdown-heading" dir="auto">
-						<h2 tabindex="-1" class="heading-element" dir="auto">Sync Progress</h2><a id="user-content-sync-progress" class="anchor" aria-label="Permalink: Sync Progress" href="#sync-progress"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h2 tabindex="-1" class="heading-element" dir="auto">Sync Progress</h2>
 					</div>
 					<p dir="auto">Time taken to index the blockchain depends on your hardware of course.
 						As Python is single-threaded most of the time only 1 core is kept
@@ -340,9 +322,7 @@ ln -s ~/scripts/electrumx electrumx</pre>
 							However LocalRPC connections are served at all times.</p>
 					</div>
 					<div class="markdown-heading" dir="auto">
-						<h2 tabindex="-1" class="heading-element" dir="auto">Terminating ElectrumX</h2><a id="user-content-terminating-electrumx" class="anchor" aria-label="Permalink: Terminating ElectrumX" href="#terminating-electrumx"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h2 tabindex="-1" class="heading-element" dir="auto">Terminating ElectrumX</h2>
 					</div>
 					<p dir="auto">The preferred way to terminate the server process is to send it the
 						<code>stop</code> RPC command:
@@ -371,9 +351,7 @@ ln -s ~/scripts/electrumx electrumx</pre>
 						altcoin server. See the man pages of these various commands for more
 						information.</p>
 					<div class="markdown-heading" dir="auto">
-						<h2 tabindex="-1" class="heading-element" dir="auto">Understanding the Logs</h2><a id="user-content-understanding-the-logs" class="anchor" aria-label="Permalink: Understanding the Logs" href="#understanding-the-logs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h2 tabindex="-1" class="heading-element" dir="auto">Understanding the Logs</h2>
 					</div>
 					<p dir="auto">You can see the logs usefully like so:</p>
 					<pre>tail -F /path/to/log/dir/current | tai64nlocal</pre>
@@ -423,9 +401,7 @@ INFO:BlockProcessor:our height: 378,812 daemon: 447,334 UTXOs 10MB hist 10MB</pr
 						volatile. It tends to be a little optimistic at first; once you get
 						to height 280,000 is should be fairly accurate.</p>
 					<div class="markdown-heading" dir="auto">
-						<h2 tabindex="-1" class="heading-element" dir="auto">Creating a self-signed SSL certificate</h2><a id="user-content-creating-a-self-signed-ssl-certificate" class="anchor" aria-label="Permalink: Creating a self-signed SSL certificate" href="#creating-a-self-signed-ssl-certificate"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h2 tabindex="-1" class="heading-element" dir="auto">Creating a self-signed SSL certificate</h2>
 					</div>
 					<p dir="auto">These instructions are based on those of the <code>electrum-server</code>
 						documentation.</p>
@@ -459,9 +435,7 @@ $ openssl x509 -req -days 1825 -in server.csr -signkey server.key -out server.cr
 						certificate. Therefore it's a good idea to make an offline backup
 						copy of your certificate and key in case you need to restore them.</p>
 					<div class="markdown-heading" dir="auto">
-						<h2 tabindex="-1" class="heading-element" dir="auto">Running on a privileged port</h2><a id="user-content-running-on-a-privileged-port" class="anchor" aria-label="Permalink: Running on a privileged port" href="#running-on-a-privileged-port"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-								<path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
-							</svg></a>
+						<h2 tabindex="-1" class="heading-element" dir="auto">Running on a privileged port</h2>
 					</div>
 					<p dir="auto">You may choose to run electrumx on a different port than 50001
 						/ 50002. If you choose a privileged port ( &lt; 1024 ) it makes sense to
@@ -494,7 +468,7 @@ $ openssl x509 -req -days 1825 -in server.csr -signkey server.key -out server.cr
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20241017115028"></script>
+	<script src="js/app.min.js?_v=20241021143048"></script>
 </body>
 
 </html>
