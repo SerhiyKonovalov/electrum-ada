@@ -397,7 +397,7 @@ h6 {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,.15)
+  background: rgba(0,0,0,.25)
 }
 .main__content {
   position: relative;
@@ -482,6 +482,7 @@ h6 {
 }
 .about__container {
   display: flex;
+  align-items: center;
   -webkit-column-gap: 2.5rem;
   -moz-column-gap: 2.5rem;
   column-gap: 2.5rem
@@ -492,8 +493,8 @@ h6 {
 .about__image {
   border-radius: .625rem;
   flex: 0 1 60%;
-  max-height: 25rem;
-  overflow: hidden
+  overflow: hidden;
+  height: 27.5rem
 }
 .about__image img {
   width: 100%;
@@ -525,7 +526,7 @@ h6 {
 }
 .advantages__header .header-main__text {
   line-height: 1.6;
-  max-width: 50rem
+  max-width: 43.75rem
 }
 .advantages__items {
   max-width: 62.5rem;
@@ -556,36 +557,36 @@ h6 {
 .item-advantages__text {
   line-height: 1.5
 }
-.article {
+.community-home {
   padding-block: 6.25rem
 }
-.article__container {
+.community-home__container {
   display: flex;
   -webkit-column-gap: 2.5rem;
   -moz-column-gap: 2.5rem;
   column-gap: 2.5rem
 }
-.article__container--reverse {
+.community-home__container--reverse {
   flex-direction: row-reverse
 }
-.article__image {
+.community-home__image {
   border-radius: .625rem;
   flex: 0 1 60%;
   height: 28.125rem;
   overflow: hidden
 }
-.article__image img {
+.community-home__image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   transition: all .7s
 }
-.article__image img:hover {
+.community-home__image img:hover {
   -webkit-transform: scale(1.04);
   transform: scale(1.04)
 }
-.article__content {
+.community-home__content {
   flex: 0 1 42%;
   align-self: center
 }
@@ -917,6 +918,7 @@ h6 {
   color: #0033ad
 }
 .markdown-body h1 {
+  text-transform: uppercase;
   padding-bottom: .5em;
   font-size: 2em;
   border-bottom: 1px solid #dbdbdb;
