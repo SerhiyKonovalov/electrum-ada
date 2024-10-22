@@ -216,6 +216,49 @@ h6 {
 .header-main__button--border:hover {
   background-color: #0033ad
 }
+.social {
+  padding-block: 5rem;
+  background-image: linear-gradient(280deg,#6684cf,#0e3dac)
+}
+.social__container {
+  color: #fff;
+  text-align: center
+}
+.social__title {
+  display: inline-block;
+  font-size: 2.125rem;
+  text-transform: uppercase;
+  margin-bottom: 3.125rem;
+  position: relative
+}
+.social__title::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: .1875rem;
+  bottom: -.5rem;
+  left: 0;
+  background: #ff7676
+}
+.social__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5625rem
+}
+.social__link {
+  padding: .75rem;
+  border-radius: 50%;
+  border: .1875rem solid #fff;
+  background: #fff;
+  transition: all .2s
+}
+.social__link:hover {
+  background: #ffa4a4
+}
+.social__icon {
+  width: 2.1875rem
+}
 .warning {
   font-size: 1rem;
   display: block;
@@ -526,7 +569,7 @@ h6 {
 }
 .advantages__header .header-main__text {
   line-height: 1.6;
-  max-width: 43.75rem
+  max-width: 37.5rem
 }
 .advantages__items {
   max-width: 62.5rem;
@@ -589,49 +632,6 @@ h6 {
 .community-home__content {
   flex: 0 1 42%;
   align-self: center
-}
-.social {
-  padding-block: 5rem;
-  background-image: linear-gradient(280deg,#6684cf,#0e3dac)
-}
-.social__container {
-  color: #fff;
-  text-align: center
-}
-.social__title {
-  display: inline-block;
-  font-size: 1.875rem;
-  text-transform: uppercase;
-  margin-bottom: 3.125rem;
-  position: relative
-}
-.social__title::after {
-  content: "";
-  position: absolute;
-  width: 80%;
-  height: .1875rem;
-  bottom: -.5rem;
-  left: 0;
-  background: #ff7676
-}
-.social__items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5625rem
-}
-.social__link {
-  padding: .75rem;
-  border-radius: 50%;
-  border: .1875rem solid #fff;
-  background: #fff;
-  transition: all .2s
-}
-.social__link:hover {
-  background: #ffa4a4
-}
-.social__icon {
-  width: 2.1875rem
 }
 .overview {
   padding-block: 10rem 6.25rem
